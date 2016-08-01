@@ -30,13 +30,13 @@
 		<form action="rating.html" >
 			<table border="0" cellpadding="0" cellspacing="0" class="grid-table">
 				<th colspan="8" style="text-align:left">Rating</th>
-				<tr>
-					<td style="text-align:right;" width="10%" valign="top" nowrap="nowrap">Rating Date:</td>
-					<td style="text-align:left" width="10%"valign="top">
+				<tr style="border-bottom:none;">
+					<td style="text-align:right;border-bottom:none;" width="10%" valign="top" nowrap="nowrap">Rating Date:</td>
+					<td style="text-align:left;border-bottom:none;" width="10%"valign="top">
 						<input type="text" name="ratingdate" id="ratingdate" value="28/07/2016"/ size="12">
 					</td>
-					<td style="text-align:right" width="10%"valign="top">Resource:</td>
-					<td style="text-align:left" width="5%"valign="top"> 
+					<td style="text-align:right;border-bottom:none;" width="10%"valign="top">Resource:</td>
+					<td style="text-align:left;border-bottom:none;" width="5%"valign="top"> 
 						<select id="resource" name="resource" style="width: 120px;">
 	                        			<option value="">--Select--</option>
 	           	        			<option value="SN">SN</option>
@@ -48,8 +48,8 @@
 	                        			<option value="SM">SM</option>
 	      					</select>
 					</td>
-					<td style="text-align:right" width="10%"valign="top">Code:</td>
-					<td style="text-align:left" width="10%"valign="top">
+					<td style="text-align:right;border-bottom:none;" width="10%"valign="top">Code:</td>
+					<td style="text-align:left;border-bottom:none;" width="10%"valign="top">
 						<select id="code" name="code" style="width: 250px;">
 	                        			<option value="">--Select--</option>
 	           	        			<option value="G101">G101 - Good job note from client</option>
@@ -61,13 +61,15 @@
 	                        			<option value="G107">G107 - Work extra hours to finish task</option>
 	      				     	</select>
 					</td>
-					<td style="text-align:right; vertical-align:top">Notes:</td>
-					<td style="text-align:left">
+					<td style="text-align:right;border-bottom:none; vertical-align:top">Notes:</td>
+					<td style="text-align:left;border-bottom:none;">
 						<textarea rows="3" cols="40" name="notes"></textarea>
 					</td>
+					
+					<tr style="border-bottom:none;">
 					<td colspan="8"> 		
 	 					<input type=submit name="submit" value="Submit"> 
-					</td>
+					</td></tr>
 				</tr>
 			</table>
 		</form>
